@@ -3,4 +3,4 @@ project(DiamondTracker)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(DiamondTracker STATIC library.cpp)
+add_subdirectory(Diamond)
